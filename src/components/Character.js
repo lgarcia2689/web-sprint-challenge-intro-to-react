@@ -2,10 +2,11 @@
 import React from 'react';
 
 
+
 function Character(props) {
     const {character}= props
     return (
-        <div>
+        <div className = 'individual'>
             <h1>{character.name}</h1>
             <p>gender: {character.gender}</p>
             <p>Height: {character.height}</p>

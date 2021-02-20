@@ -23,13 +23,14 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">REACT WARS {'>'} </h1>
+      <div className = 'container'>
       {
         character.map( fr =>{
           return <Character character={fr}/>
         }
-
         )
       }
+      </div>
     </div>
   );
 }
